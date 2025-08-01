@@ -21,24 +21,21 @@ body {
 ::after {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 .section {
   background-color: var(--main-bg);
   min-height: 100vh;
   display: block;
-  position: fixed;
+  position: relative;
   opacity: 1;
   padding: 0 30px;
-  left: 270px;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  margin-left: 270px;
   z-index: 0;
   overflow-y: auto;
-  overflow-x: hidden;
   transition: all 0.3s ease;
-}
-.section.back-section {
-  z-index: 1;
 }
 
 .section-title {
@@ -142,6 +139,105 @@ a {
   font-size: 14px;
   color: var(--text-color);
   padding-top: 20px;
+}
+
+/* About css */
+.about .about-content {
+  margin-top: 50px;
+}
+.about .about-content p {
+  color: var(--text-color);
+  text-align: start;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Educational Background */
+.education .education-title {
+  color: var(--skin-color);
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.education .edu-section-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.education .logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-right: 20px;
+  border: 1px solid var(--text-color);
+}
+
+.education .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.education .edu-section-desc {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 12px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  box-shadow: 0 0.5px var(--text-color);
+  z-index: 999;
+  color: var(--text-color);
+}
+
+.education .edu-section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+.education .edu-section-title span {
+  font-size: 20px;
+  color: var(--text-color);
+  margin-left: auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--main-bg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.education .sch img{
+   filter: brightness(0) invert(1);
+}
+
+.education .sch{
+  font-size: 20px;
+  margin-top: 5px;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.education .edu-section-desc p {
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 /* Contact css*/
