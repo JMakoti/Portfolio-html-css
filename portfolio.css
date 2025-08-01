@@ -3,6 +3,7 @@
   --main-bg: rgba(0, 0, 0, 0.986);
   --text-color: white;
   --light-color: rgba(0, 0, 0, 0.342);
+  --grey-color50: grey;
 }
 * {
   padding: 0;
@@ -32,7 +33,7 @@ html {
   position: relative;
   opacity: 1;
   padding: 0 30px;
-  margin-left: 270px;
+  margin-left: 250px;
   z-index: 0;
   overflow-y: auto;
   transition: all 0.3s ease;
@@ -81,7 +82,7 @@ a {
   text-decoration: none;
 }
 .side-nav {
-  width: 270px;
+  width: 250px;
   position: fixed;
   background: var(--main-bg);
   left: 0;
@@ -309,6 +310,122 @@ a {
 .education .edu-section-desc p {
   font-size: 20px;
   line-height: 1.6;
+}
+
+/* Interest */
+.interests-content {
+  margin-top: 50px;
+  display: grid;
+  align-items: center;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.interests-content .skill-item {
+  color: var(--text-color);
+  border: 1px solid var(--skin-color);
+  padding: 30px 10px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.interests-content .skill-item .skill-icon {
+  justify-self: center;
+}
+
+.interests-content .skill-item .skill-icon img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+.interests-content .skill-item .skill-text {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Interest Skills*/
+.skills .programming-title {
+  color: var(--text-color);
+  background-color: var(--skin-color);
+  padding: 10px 30px;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 30px;
+  font-size: 25px;
+}
+
+.skill-ceiling {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 300px;
+  position: relative;
+}
+
+.skill-hanger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.string {
+  height: 150px;
+  border-left: 3px dotted var(--grey-color50);
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.string.h1 {
+  height: 100px;
+}
+.string.h2 {
+  height: 150px;
+}
+.string.h3 {
+  height: 120px;
+}
+.string.h4 {
+  height: 60px;
+}
+.string.h5 {
+  height: 90px;
+}
+
+.rotate-0 {
+  transform: rotate(0deg);
+}
+.rotate-5 {
+  transform: rotate(5deg);
+}
+.rotate-7 {
+  transform: rotate(7deg);
+}
+.rotate-12 {
+  transform: rotate(12deg);
+}
+.rotate-20 {
+  transform: rotate(20deg);
+}
+.rotate-neg5 {
+  transform: rotate(-3deg);
+}
+.rotate-neg10 {
+  transform: rotate(-10deg);
+}
+.rotate-neg15 {
+  transform: rotate(-15deg);
 }
 /* Projects css */
 .projects .project-list {
