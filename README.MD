@@ -2,8 +2,8 @@
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+![Deployed GitHub Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## 🌟 Project Overview
 
@@ -41,7 +41,9 @@ portfolio-html-css/
 
 ## 🌐 Live Demo
 
-🔗 **[View Live Portfolio](https://yourusername.github.io/portfolio)**
+🔗 **[View Live Portfolio-GithubPages](https://jmakoti.github.io/Portfolio-html-css/)**
+
+🔗 **[View Live Portfolio-Vercel](http://portfolio-html-css-git-main-asgards-projects.vercel.app/)**
 
 ## 📱 Features
 
@@ -133,7 +135,7 @@ The color scheme can be easily customized by modifying CSS variables in `style.c
 - ✅ Portfolio launch
 - ✅ All required sections implemented
 - ✅ Responsive design completed
-- ✅ Deployed to GitHub Pages
+- ✅ Deployed to GitHub Pages & Vercel
 
 ## 🤝 Contributing
 
@@ -151,11 +153,8 @@ While this is a personal portfolio, feedback and suggestions are welcome!
 - 📧 Email: josephmwamuye5@gmail.com
 - 💼 LinkedIn: [https://linkedin.com/in/mwamuyejoseph](https://linkedin.com/in/yourprofile)
 - 🐱 GitHub: [@JMakoti](https://github.com/JMakoti/)
-- 🌐 Portfolio: [yourusername.github.io/portfolio](https://yourusername.github.io/portfolio)
+- 🌐 Portfolio: [See My Profile](https://my-portfolio-asgards-projects.vercel.app/)
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 

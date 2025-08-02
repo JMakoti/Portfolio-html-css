@@ -219,8 +219,8 @@ a {
   object-fit: cover;
 }
 
-.hero-section-profile-name {
-  font-size: 30px;
+.hero-section-profile-name h1{
+  font-size: 40px;
   font-weight: 600;
   text-align: center;
   color: var(--text-color);
