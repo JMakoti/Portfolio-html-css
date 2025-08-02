@@ -4,52 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
 
   <body>
     <div class="main-container">
+      <!-- Mobile Menu -->
+      <input type="checkbox" id="mobile-menu-clicked" hidden />
+      <label for="mobile-menu-clicked" class="mobile-menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="mobile-header">Mwamuye Portfolio</div>
       <!-- Sidebar Navigation -->
       <div class="side-nav">
         <nav>
-        <ul class="nav">
-          <li>
-            <a href="#home" class="active">
-              <img src="icons/house-blank.png" alt="home" />
-              <span>Home</span>
-            </a>
-          </li>
-          <li>
-            <a href="#about">
-              <img src="icons/id-card-clip-alt.png" alt="about" />
-              <span>About</span>
-            </a>
-          </li>
-          <li>
-            <a href="#education">
-              <img src="icons/student-alt.png" alt="education" />
-              <span>Education</span>
-            </a>
-          </li>
-          <li>
-            <a href="#interests">
-              <img src="icons/interest.png" alt="interests" />
-              <span>Interests</span>
-            </a>
-          </li>
-          <li>
-            <a href="#projects">
-              <img src="icons/diagram-project.png" alt="projects" />
-              <span>Projects</span>
-            </a>
-          </li>
-          <li>
-            <a href="#contact">
-              <img src="icons/phone-guide.png" alt="contact" />
-              <span>Contact</span>
-            </a>
-          </li>
-        </ul>
+          <ul class="nav">
+            <li>
+              <a href="#home" class="active">
+                <img src="assets/icons/house-blank.png" alt="home" />
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#about">
+                <img src="assets/icons/id-card-clip-alt.png" alt="about" />
+                <span>About Me</span>
+              </a>
+            </li>
+            <li>
+              <a href="#education">
+                <img src="assets/icons/student-alt.png" alt="education" />
+                <span>Education</span>
+              </a>
+            </li>
+            <li>
+              <a href="#projects">
+                <img src="assets/icons/diagram-project.png" alt="projects" />
+                <span>Projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="#interests">
+                <img src="assets/icons/interest.png" alt="interests" />
+                <span>Interests</span>
+              </a>
+            </li>
+            <li>
+              <a href="#contact">
+                <img src="assets/icons/phone-guide.png" alt="contact" />
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
         </nav>
 
         <!-- Footer -->
@@ -63,7 +72,7 @@
         <!-- home content -->
         <section class="home section" id="home">
           <div class="hero-section-profile">
-            <img src="images/logo.jpeg" alt="profile" />
+            <img src="assets/images/logo.jpeg" alt="profile" />
           </div>
 
           <div class="hero-section-profile-name">
@@ -76,7 +85,7 @@
 
             <div class="hero-btn desktop">
               <a
-                href="/pdf/makoti-cv.pdf"
+                href="/assets/pdf/makoti-cv.pdf"
                 class="btn"
                 download
                 rel="noopener noreferrer"
@@ -87,7 +96,7 @@
         </section>
         <!-- About Section -->
         <section class="about section" id="about">
-          <div class="container">
+          <div>
             <div class="section-title">
               <h2>About Me</h2>
             </div>
@@ -120,7 +129,7 @@
 
         <!-- Educational Background -->
         <section class="education section" id="education">
-          <div class="container">
+          <div>
             <div class="section-title">
               <h2>Education</h2>
             </div>
@@ -129,7 +138,7 @@
             </div>
             <div class="edu-section-content">
               <div class="logo">
-                <img src="images/rongo.jpg" alt="Rongo University" />
+                <img src="assets/images/rongo.jpg" alt="Rongo University" />
               </div>
 
               <div class="edu-section-desc">
@@ -139,7 +148,7 @@
                 </div>
                 <h3 class="sch">
                   <img
-                    src="icons/map-marker.png"
+                    src="assets/icons/map-marker.png"
                     alt="icon"
                     style="width: 1em; vertical-align: middle"
                   />
@@ -158,14 +167,14 @@
 
         <!-- Interests  -->
         <section class="interests section" id="interests">
-          <div class="container">
+          <div>
             <div class="section-title">
               <h2>Interests</h2>
             </div>
             <div class="interests-content">
               <div class="skill-item">
                 <div class="skill-icon">
-                  <img src="icons/coding.png" alt="" class="icon" />
+                  <img src="assets/icons/coding.png" alt="" class="icon" />
                 </div>
                 <div class="skill-text">
                   <h4>Website design</h4>
@@ -175,7 +184,7 @@
 
               <div class="skill-item">
                 <div class="skill-icon">
-                  <img src="icons/debug.png" alt="" class="icon" />
+                  <img src="assets/icons/debug.png" alt="" class="icon" />
                 </div>
                 <div class="skill-text">
                   <h4>Code Debbugging</h4>
@@ -185,7 +194,7 @@
 
               <div class="skill-item">
                 <div class="skill-icon">
-                  <img src="icons/ui-design.png" alt="" class="icon" />
+                  <img src="assets/icons/ui-design.png" alt="" class="icon" />
                 </div>
                 <div class="skill-text">
                   <h4>App Creation</h4>
@@ -201,63 +210,66 @@
               <div class="skill-hanger">
                 <div class="string h4"></div>
                 <div class="icon rotate-0">
-                  <img src="icons/html.png" alt="icon html" />
+                  <img src="assets/icons/html.png" alt="icon html" />
                 </div>
               </div>
 
               <div class="skill-hanger">
                 <div class="string h2"></div>
                 <div class="icon rotate-neg10">
-                  <img src="icons/javascript.png" alt="icon javascript" />
+                  <img
+                    src="assets/icons/javascript.png"
+                    alt="icon javascript"
+                  />
                 </div>
               </div>
 
               <div class="skill-hanger">
                 <div class="string h3"></div>
                 <div class="icon rotate-20">
-                  <img src="icons/css-3.png" alt="icon css3" />
+                  <img src="assets/icons/css-3.png" alt="icon css3" />
                 </div>
               </div>
 
               <div class="skill-hanger">
                 <div class="string h4"></div>
                 <div class="icon rotate-neg10">
-                  <img src="icons/nodejs.png" alt="icon node" />
+                  <img src="assets/icons/nodejs.png" alt="icon node" />
                 </div>
               </div>
 
               <div class="skill-hanger">
                 <div class="string h5"></div>
                 <div class="icon rotate-20">
-                  <img src="icons/react.png" alt="icon reactjs" />
+                  <img src="assets/icons/react.png" alt="icon reactjs" />
                 </div>
               </div>
 
               <div class="skill-hanger">
-                <div class="string h3"></div>
+                <div class="string h2"></div>
                 <div class="icon rotate-neg5">
-                  <img src="icons/git.png" alt="icon git" />
+                  <img src="assets/icons/git.png" alt="icon git" />
                 </div>
               </div>
 
               <div class="skill-hanger">
                 <div class="string h4"></div>
                 <div class="icon rotate-neg10">
-                  <img src="icons/flutter.jpg" alt="icon flutter" />
+                  <img src="assets/icons/flutter.jpg" alt="icon flutter" />
                 </div>
               </div>
 
               <div class="skill-hanger">
-                <div class="string h5"></div>
+                <div class="string h3"></div>
                 <div class="icon rotate-neg15">
-                  <img src="icons/django.png" alt="icon django" />
+                  <img src="assets/icons/django.png" alt="icon django" />
                 </div>
               </div>
 
               <div class="skill-hanger">
-                <div class="string h5"></div>
+                <div class="string h2"></div>
                 <div class="icon rotate-20">
-                  <img src="icons/mysql.png" alt="icon mysql" />
+                  <img src="assets/icons/mysql.png" alt="icon mysql" />
                 </div>
               </div>
             </div>
@@ -266,14 +278,14 @@
 
         <!-- Projects -->
         <section class="projects section" id="projects">
-          <div class="container">
+          <div>
             <div class="section-title">
               <h2>Projects</h2>
             </div>
             <div class="project-list">
               <div class="project-item">
                 <img
-                  src="images/porfolio.png"
+                  src="assets/images/porfolio.png"
                   alt="project sample image"
                   class="project-sample-image"
                 />
@@ -282,13 +294,15 @@
                   A personal portfolio website showcasing my skills, projects,
                   and experiences. Built with Reactjs and CSS
                 </p>
-                <a href="https://my-portfolio-asgards-projects.vercel.app/" target="_blank"
+                <a
+                  href="https://my-portfolio-asgards-projects.vercel.app/"
+                  target="_blank"
                   >view project</a
                 >
               </div>
               <div class="project-item">
                 <img
-                  src="images/cinema.png"
+                  src="assets/images/cinema.png"
                   alt="project sample image"
                   class="project-sample-image"
                 />
@@ -297,7 +311,9 @@
                   A simple movie website that allows user to view movie trailers
                   . Developed using html5,CSS3 and Javascript.
                 </p>
-                <a href="https://movie-templete-website.vercel.app/" target="_blank"
+                <a
+                  href="https://movie-templete-website.vercel.app/"
+                  target="_blank"
                   >View project</a
                 >
               </div>
@@ -307,7 +323,7 @@
 
         <!-- Contact Me -->
         <section class="contact section" id="contact">
-          <div class="container">
+          <div>
             <div class="section-title">
               <h2>Contact Me</h2>
             </div>
@@ -315,8 +331,8 @@
             <h4 class="contact-sub-title">I'M AT YOUR SERVICE</h4>
             <div class="contact-details">
               <div class="contact-info">
-                <a href="tel:+254798995763" class="icon"  target="_blank"
-                  ><img src="icons/phone-call.png" alt="call"
+                <a href="tel:+254798995763" class="icon" target="_blank"
+                  ><img src="assets/icons/phone-call.png" alt="call"
                 /></a>
                 <div class="info">
                   <h4>Call</h4>
@@ -325,8 +341,11 @@
               </div>
 
               <div class="contact-info">
-                <a href="mailto:josephmwamuye5@gmail.com" class="icon" target="_blank" 
-                  ><img src="icons/envelopes.png" alt="email"
+                <a
+                  href="mailto:josephmwamuye5@gmail.com"
+                  class="icon"
+                  target="_blank"
+                  ><img src="assets/icons/envelopes.png" alt="email"
                 /></a>
                 <div class="info">
                   <h4>Email</h4>
@@ -335,8 +354,11 @@
               </div>
 
               <div class="contact-info">
-                <a href="https://wa.me/254798995763?text=Hello" target="_blank" class="icon"
-                  ><img src="icons/messages.png" alt="message"
+                <a
+                  href="https://wa.me/254798995763?text=Hello"
+                  target="_blank"
+                  class="icon"
+                  ><img src="assets/icons/messages.png" alt="message"
                 /></a>
                 <div class="info">
                   <h4>Message</h4>
@@ -346,7 +368,7 @@
 
               <div class="contact-info">
                 <div class="icon">
-                  <img src="icons/map-marker.png" alt="Location" />
+                  <img src="assets/icons/map-marker.png" alt="Location" />
                 </div>
                 <div class="info">
                   <h4>Location</h4>

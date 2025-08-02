@@ -1,83 +1,177 @@
-# July 2025 Cohort Hackathon 1: Portfolio Challenge 🚀  
+# Personal Portfolio Website 🚀
 
-Welcome to the **PLP Academy Portfolio Challenge!** 🎉  
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
-This README.md file provides all the details you need to successfully complete and submit your project. Let’s get started! 💻  
+## 🌟 Project Overview
 
----  
+This is my personal portfolio website built as part of the **PLP Academy July 2025 Cohort Hackathon Challenge**. The portfolio showcases my skills, projects, educational background, and provides a way for potential collaborators and employers to connect with me.
 
-## 🌟 Project Overview  
-Your challenge is to build a **personal portfolio website** that showcases your skills, background, and achievements. Your portfolio should include:  
+### 🎯 Challenge Requirements Met
 
-1. **Programming Languages**: List the programming languages you’re proficient in.  
-2. **About Section**: Share a brief introduction about yourself, your passion, and what drives you.  
-3. **Educational Background**: Provide details of your education and include a downloadable CV.  
-4. **Interests**: Share what excites you about tech and your professional interests.  
-5. **Projects**: Include links to your projects with brief descriptions.  
-6. **Contact Form**: Make it easy for collaborators or employers to reach you.  
+- ✅ **Programming Languages**: Comprehensive list of my technical skills
+- ✅ **About Section**: Personal introduction and professional passion
+- ✅ **Educational Background**: Academic details
+- ✅ **Interests**: Technology interests
+- ✅ **Projects**: Portfolio of work with live links and descriptions
+- ✅ **Contact**:Contact for professional inquiries
 
----  
+## 🛠️ Technologies Used
 
-## 🛠️ Guidelines  
+- **HTML5**: Semantic markup and structure
+- **CSS3**: Styling and responsive design
 
-- **Skills**: Build your portfolio using HTML and CSS.  
-- **Individual Work**: This is a solo challenge—showcase your skills and creativity.
-- **Deskie Team Up**: This is you and your Deskie working together, merging your skills and creativity to come up with something great.
-- **Reference Material**: For additional details and helpful information, refer to [this document](https://docs.google.com/document/d/1v-F-tXa1dwV2w5oMkM2QzAuoFoQYZlOEuT5qeRKDTPA/edit?usp=sharing).  
-- **Submission**: Push your project to a **public GitHub repository** and complete the submission form.  
+## 🏗️ Project Structure
 
----  
+```
+portfolio-html-css/
+├── index.html              # Main portfolio page
+├── css/
+│   ├── style.css          # Main stylesheet
+│   └── responsive.css     # Mobile responsiveness
+├── assets/
+│   ├── images/            # Profile photos and project screenshots
+│   ├── pdf/               # CV 
+│   └── icons/             # Custom icons
+├── README.MD              # Project documentation
+└── LICENSE                # MIT License
+```
 
-## 📅 Key Dates  
+## 🌐 Live Demo
 
-**Start Date**: July 30th, 2025, 12:00 PM EAT
-**End Date**: Aug 3rd, 2025, 12:00 PM EAT
-**Award Ceremony**: Aug 8th, 2025, 5:00 PM EAT  
+🔗 **[View Live Portfolio](https://yourusername.github.io/portfolio)**
 
----  
+## 📱 Features
 
-## 💼 Example Portfolio Sections  
+### ✨ Design & User Experience
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Modern UI/UX**: Clean, professional, and visually appealing interface
+- **Smooth Animations**: CSS transitions and hover effects
+- **Fast Loading**: Optimized images and efficient code
 
-### 📝 About Me  
-Hi! I’m [Your Name], a passionate web developer with a love for creating functional and beautiful web experiences.  
+### 🎯 Sections Included
+1. **Hero Section**: Eye-catching introduction with call-to-action
+2. **About Me**: Personal story and professional journey
+4. **Education**: Academic background with downloadable CV
+5. **Projects**: Showcase of development work with live links
+6. **Interests**: Professional interests and technology passions and tecnical skills
+7. **Contact**: Working contact form with form validation
 
-### 🎓 Educational Background  
-I hold a degree in [Your Degree] from [Your University].  
-**[Download My CV](link-to-your-cv)**  
+### 🔧 Technical Features
+- **Smooth Scrolling**: Navigation between sections
+- **Mobile Menu**: Hamburger menu for mobile devices
+- **SEO Optimized**: Meta tags and semantic HTML structure
 
-### 💡 Interests  
-- **Web Development**: Exploring modern frameworks and best practices.  
-- **Tech Innovations**: Keeping up with emerging trends in technology.  
+## 🚀 Getting Started
 
-### 🛠️ Projects  
-1. **[Project 1](link-to-project1)**: A brief description of your project.  
-2. **[Project 2](link-to-project2)**: Another brief description.  
+### Prerequisites
+- Web browser (Chrome, Firefox, Safari, Edge)
+- Text editor (VS Code, Sublime Text, etc.)
+- Git for version control
 
-### 📬 Contact Me  
-Feel free to reach out! [Contact Form](link-to-your-contact-form)  
+### Installation & Setup
 
----  
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/JMakoti/Portfolio-html-css.git
+   cd Portfolio-html-css
+   ```
 
-## 📁 Submission Instructions  
+2. **Open in your preferred editor**
+   ```bash
+   code .  # For VS Code
+   ```
 
-1. **Create Your Portfolio**: Build a complete portfolio website with all the required sections.  
-2. **Push to GitHub**: Upload your project to a **public GitHub repository**.  
-3. **Update README**: Ensure your README.md includes details about your portfolio.  
-4. **Submit Your Project**: Use [this form](https://forms.gle/DVvnaM5AzkXPpxYSA) to share your GitHub repo.  
+3. **Launch locally**
+   - Open `index.html` in your web browser
+   - Or use Live Server extension in VS Code
 
----  
+### 🌐 Deployment
 
-## 🏆 Evaluation Criteria  
+This portfolio is deployed using **GitHub Pages**:
 
-- **Creativity and Ingenuity (20%)**: Original ideas and standout features.  
-- **Code Quality (20%)**: Clean, readable, and efficient code.  
-- **Documentation (15%)**: Informative README and clear code comments.  
-- **Deployment (15%)**: Successfully hosted on a platform like GitHub Pages, Netlify or Vercel.  
-- **Development Process (15%)**: Effective collaboration and project management.  
-- **Technology Stack (15%)**: Usage of responsive, visually appealing tools.
+1. Push your code to GitHub
+2. Go to repository Settings > Pages
+3. Select source branch (main/master)
+4. Your site will be available at `https://yourusername.github.io/portfolio`
 
+Alternative deployment options:
+- **Netlify**: Drag and drop deployment
+- **Vercel**: Connect GitHub repository
 
----  
+## 🎨 Customization
 
-We’re excited to see your unique creations! ✨  
-Happy coding, and good luck! 🍀  
+### Colors & Themes
+The color scheme can be easily customized by modifying CSS variables in `style.css`:
+
+```css
+:root {
+  --skin-color: #ec1839;
+  --main-bg: rgba(0, 0, 0, 0.986);
+  --text-color: white;
+  --light-color: rgba(0, 0, 0, 0.342);
+  --grey-color50: grey;
+}
+```
+
+### Content Updates
+- Update personal information in `index.html`
+- Replace project screenshots in `assets/images/`
+- Modify CV link in the education section
+
+## 📈 Future Enhancements
+
+- [ ] Dark mode toggle
+- [ ] Multi-language support
+- [ ] Progressive Web App (PWA) features
+
+## 📝 Changelog
+
+### Version 1.0.1 (August 2025)
+- ✅ Portfolio launch
+- ✅ All required sections implemented
+- ✅ Responsive design completed
+- ✅ Deployed to GitHub Pages
+
+## 🤝 Contributing
+
+While this is a personal portfolio, feedback and suggestions are welcome!
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/improvement`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/improvement`)
+5. Create a Pull Request
+
+## 📬 Contact
+
+**Joseph Mwamuye**
+- 📧 Email: josephmwamuye5@gmail.com
+- 💼 LinkedIn: [https://linkedin.com/in/mwamuyejoseph](https://linkedin.com/in/yourprofile)
+- 🐱 GitHub: [@JMakoti](https://github.com/JMakoti/)
+- 🌐 Portfolio: [yourusername.github.io/portfolio](https://yourusername.github.io/portfolio)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **PLP Academy** for organizing this amazing hackathon challenge
+- **MDN Web Docs** for excellent HTML/CSS documentation
+
+---
+
+### 📅 Hackathon Timeline
+
+- **Start Date**: July 30th, 2025, 12:00 PM EAT
+- **End Date**: August 3rd, 2025, 12:00 PM EAT
+- **Award Ceremony**: August 8th, 2025, 5:00 PM EAT
+
+---
+
+**Built with ❤️ during PLP Academy July 2025 Cohort Hackathon**
+
+⭐ **If you found this portfolio helpful, please give it a star!** ⭐
