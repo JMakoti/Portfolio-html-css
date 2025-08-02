@@ -205,8 +205,8 @@ a {
   position: relative;
 }
 .hero-section-profile {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid var(--text-color);
@@ -539,7 +539,7 @@ a {
   display: grid;
   align-items: center;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .contact .contact-info {

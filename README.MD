@@ -29,7 +29,7 @@ This is my personal portfolio website built as part of the **PLP Academy July 20
 portfolio-html-css/
 ├── index.html              # Main portfolio page
 ├── css/
-│   ├── style.css          # Main stylesheet
+│   ├── portfolio.css          # Main stylesheet
 │   └── responsive.css     # Mobile responsiveness
 ├── assets/
 │   ├── images/            # Profile photos and project screenshots
